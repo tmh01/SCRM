@@ -1,0 +1,11 @@
+experiment: service_logs
+K: [5, 10, 20, 40]
+seeds: [42, 2024, 3407]
+groups:
+  - name: service_desk
+    logs:
+      - {name: BPIC2013, path: data/raw/BPIC2013.csv, terminal_activities: [Completed]}
+      - {name: BPIC2014, path: data/raw/BPIC2014.csv, terminal_activities: [Closed]}
+      - {name: Helpdesk, path: data/raw/Helpdesk.csv, terminal_activities: ['6']}
+      - {name: ItalianCompany, path: data/raw/ItalianCompany.csv, terminal_activities: [Closed]}
+      - {name: ServiceNow, path: data/raw/ServiceNow.csv, terminal_activities: [Closed]}

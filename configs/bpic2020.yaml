@@ -1,0 +1,11 @@
+experiment: bpic2020
+K: [5, 10, 20, 40]
+seeds: [42, 2024, 3407]
+groups:
+  - name: bpic2020
+    logs:
+      - {name: BPIC2020_Dom, path: data/raw/BPIC2020_Dom.csv}
+      - {name: BPIC2020_Inter, path: data/raw/BPIC2020_Inter.csv}
+      - {name: BPIC2020_Per, path: data/raw/BPIC2020_Per.csv}
+      - {name: BPIC2020_Pre, path: data/raw/BPIC2020_Pre.csv}
+      - {name: BPIC2020_Req, path: data/raw/BPIC2020_Req.csv}

@@ -1,0 +1,10 @@
+experiment: demo
+synthetic: true
+K: [2]
+seeds: [42]
+groups:
+  - name: demo
+    logs:
+      - {name: demo_a, path: outputs/demo_inputs/demo_a.csv}
+      - {name: demo_b, path: outputs/demo_inputs/demo_b.csv}
+      - {name: demo_c, path: outputs/demo_inputs/demo_c.csv}

@@ -1,0 +1,11 @@
+experiment: bpic2015
+K: [5, 10, 20, 40]
+seeds: [42, 2024, 3407]
+groups:
+  - name: bpic2015
+    logs:
+      - {name: BPIC2015_1, path: data/raw/BPIC2015_1.csv}
+      - {name: BPIC2015_2, path: data/raw/BPIC2015_2.csv}
+      - {name: BPIC2015_3, path: data/raw/BPIC2015_3.csv}
+      - {name: BPIC2015_4, path: data/raw/BPIC2015_4.csv}
+      - {name: BPIC2015_5, path: data/raw/BPIC2015_5.csv}
